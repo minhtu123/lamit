@@ -10,7 +10,6 @@ import os, threading, requests, cloudscraper, datetime, time, socket, socks, ssl
 import socket
 from urllib.parse import urlparse
 from requests.cookies import RequestsCookieJar
-import undetected_chromedriver as webdriver
 from sys import stdout
 from colorama import Fore, init
 init(convert=True)
@@ -1072,8 +1071,6 @@ def title():
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"███████║██████╔╝██║  ███╔╝ ██║   ██║██╔██╗ ██║███████║                          \n")
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██╔══██║██╔══██╗██║ ███╔╝  ██║   ██║██║╚██╗██║██╔══██║                        \n")
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"██║  ██║██║  ██║██║███████╗╚██████╔╝██║ ╚████║██║  ██║                          \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
-      \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
